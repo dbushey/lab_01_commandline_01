@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,7 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users
 
 
 ==========
@@ -120,7 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxrwxrwt@ 17 root     wheel   578 Jan 22 15:46 Shared
 
 
 ==========
@@ -131,7 +132,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -142,7 +143,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -153,7 +154,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -164,7 +165,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,13 +175,15 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
+ent-v321-009.local
 
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ cd ~/mtec1002
+$ pwd
 
 
 ==========
@@ -203,7 +206,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p lemon/strawbery/orange/pineapple
 
 
 ==========
@@ -211,7 +214,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -219,7 +222,12 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+total 0
+drwxr-xr-x  2 student  staff   68 Jan 29 20:16 aardvark
+drwxr-xr-x  2 student  staff   68 Jan 29 19:53 animals
+drwxr-xr-x  3 student  staff  102 Jan 29 19:55 foo
+drwxr-xr-x  2 student  staff   68 Jan 29 19:54 food
+drwxr-xr-x  3 student  staff  102 Jan 29 20:15 lemon
 
 
 ==========
@@ -231,7 +239,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 ==========
